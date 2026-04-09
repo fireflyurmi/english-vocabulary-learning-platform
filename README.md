@@ -1,116 +1,38 @@
-# ENGLISH <img width="25px" src="./assets/logo.png" /> JANALA
+# 📚 English Vocabulary Learning Platform
+
+An interactive and modern web-based platform designed to help users learn and master English vocabulary. This project combines a clean user interface with functional logic to create an engaging educational tool.
+
+### 🔗 Live Demo
+[View Live Project](https://fireflyurmi.github.io/english-vocabulary-learning-platform/)
 
 ---
 
-## ⚡ API Endpoints
-
-1. Get ⚡ All Levels
-
-```bash
-https://openapi.programming-hero.com/api/levels/all
-```
-
-1. Get ⚡ Words by Levels <br/>
-   https:// openapi.programming-hero.com/api/level/{id}
-
-```bash
-https://openapi.programming-hero.com/api/level/5
-```
-
-1. Get ⚡ Words Detail <br/>
-   https:// openapi.programming-hero.com/api/word/{id}
-
-```bash
-https://openapi.programming-hero.com/api/word/5
-```
-
-1. Get ⚡ All Words <br/>
-
-```bash
-https://openapi.programming-hero.com/api/words/all
-```
-
-# Work To do
-
-### 1. Show Levels on The UI
-
-- [ ] Show a center-aligned heading as Figma
+### 📸 Project Preview
+![Project Preview](./preview.png)
 
 ---
 
-- [ ] Create dynamically generated buttons from **API-01** for each lesson
-- [ ] Lesson Buttons will be displayed on page load
+### 📝 Project Overview
+This platform is built for students and language enthusiasts. It features a structured way to explore new words, utilizing custom scripts for interactivity and Tailwind CSS for a professional, responsive layout.
 
----
+### ✨ Key Features
+- **Dynamic Word Display:** Powered by custom JavaScript for a smooth user experience.
+- **Modern Responsive Design:** Crafted with **Tailwind CSS** for seamless viewing on all devices.
+- **Asset Management:** Organized folder structure for `scripts`, `assets`, and `styles`.
+- **Clean UI:** Minimalist approach to focus purely on learning content.
+- **Fast Performance:** Pure frontend implementation ensuring instant load times.
 
-### 2. Show Word Cards Based on Level
+### 🛠️ Technology Stack
+- **HTML5:** For semantic and accessible web structure.
+- **CSS3 & Tailwind CSS:** Using utility-first classes and custom `style.css` for polished design.
+- **JavaScript (Vanilla):** Custom scripts located in the `/scripts` folder for application logic.
 
-- [ ] Show a default text that will be displayed in the Vocabulary section initially
-- [ ] on Clicking a Specific Lesson Button Load All the words from **API-02**
-- [ ] Display all words for a selected lesson in a card format, showing:
+### 📦 Dependencies & Tools
+- [Tailwind CSS](https://tailwindcss.com/) - For rapid and modern styling.
+- [Google Fonts](https://fonts.google.com/) - Integrated for better readability.
+- [Lucide Icons / FontAwesome] - (If used in your assets/scripts).
 
-  - [ ] Word
-  - [ ] Word meaning & pronunciation
-  - [ ] Two buttons with relevant icons as per Figma
-
-- [ ] Show **\*No Word Found** message if no words exist for a lesson
-
----
-
-- [ ] Create functionality to highlight the active lesson button
-
----
-
-### 3. Use Different Color on The Active Level Button
-
-- [ ] After Successfully Loading words of a level , diffirentiate the button so user can understand which button is active
-
-### 4. Vocabulary Details
-
-- [ ] Create functionality to open a modal when clicking the details icon
-- [ ] Data will be load from **API-03**
-- [ ] modal will displays:
-  - [ ] Word with pronunciation
-  - [ ] Example sentence
-  - [ ] Synonyms
-  - [ ] A "Complete Learning" button to close the modal
-
-### 5. Handling Invalid Data
-
-- [ ] avoid displaying falsy values like `undefined` or `null`
-- [ ] display relevant words if no data is found
-
-### 6. Loading Spinner
-
-- [ ] Create a loading spinner that will be display when vocabulary is loading from API
-
-### 7. Implement Search Functionality
-
-- [ ] Take a input Box.
-- [ ] on Changing value It will Search word and show in the UI.
-- [ ] If anyone Do search reset active button
-
-### 8. Save Word Feature
-
-- [ ] in the UI of Card add a button `Heart icon`
-- [ ] on Clicking it. Store the Word in the Saved Box
-- [ ] Show Saved words in a Different Section.
-
-### 9. Speak your Vocabularies
-
-- [ ] Create functionality for voice pronunciation of vocabulary words
-- [ ] Use below function and implement on clicking sound icon
-
-```js
-function pronounceWord(word) {
-  const utterance = new SpeechSynthesisUtterance(word);
-  utterance.lang = "en-EN"; // English
-  window.speechSynthesis.speak(utterance);
-}
-```
-
-For More >> you can explore this implementation 👉 [https://codepen.io/Ferdous-Zihad/pen/PwoJMmJ](https://codepen.io/Ferdous-Zihad/pen/PwoJMmJ)
-
----
-Bonus : How to create Private Repository for next assignments
-## Test Repo - :  https://classroom.github.com/a/Fgjib-lr
+### 🚀 How to Run Locally
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/fireflyurmi/english-vocabulary-learning-platform.git](https://github.com/fireflyurmi/english-vocabulary-learning-platform.git)

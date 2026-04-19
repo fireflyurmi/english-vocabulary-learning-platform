@@ -1,6 +1,7 @@
 <div align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/3426/3426653.png" width="100" />
 
-# 📚 English Vocabulary Learning Platform
+   # 📚 English Vocabulary Learning Platform
 ### *Master English Vocabulary with an Interactive & Engaging Experience.*
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()

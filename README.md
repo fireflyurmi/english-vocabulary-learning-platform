@@ -1,9 +1,17 @@
+<div align="center">
+
 # 📚 English Vocabulary Learning Platform
+### *Master English Vocabulary with an Interactive & Engaging Experience.*
 
-An interactive and modern web-based platform designed to help users learn and master English vocabulary. This project combines a clean user interface with functional logic to create an engaging educational tool.
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)]()
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)]()
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)]()
+[![Educational App](https://img.shields.io/badge/Category-Educational-orange?style=for-the-badge)]()
 
-### 🔗 Live Demo
-[View Live Project](https://fireflyurmi.github.io/english-vocabulary-learning-platform/)
+*An interactive and modern web-based platform designed to help users learn and master English vocabulary. This project combines a clean user interface with functional logic to create an engaging educational tool.*
+
+</div>
 
 ---
 
